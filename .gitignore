@@ -1,0 +1,8 @@
+__pycache__/
+migrations/
+db.sqlite3
+static/CACHE/
+staticfiles/
+*.secret
+secrets.json
+zenv
