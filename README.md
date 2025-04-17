@@ -1,1 +1,5 @@
-This project serves as a foundation for integrating Django with Celery for asynchronous task processing. It includes a simple Django application for managing user interactions and a Celery setup to handle background tasks such as sending emails. The communication between Django and Celery is facilitated through message queues, enabling efficient and scalable processing of tasks.
+# Django Celery Beat Tutorial
+
+This project serves as a jumpstart for Django and Celery Beat. It includes a simple Django app, a Celery task, and a Celery beat task. The Django app sends a message to the Celery task, which then sends a message to the Celery beat task dynamically.
+
+
